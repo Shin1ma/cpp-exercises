@@ -1,0 +1,3 @@
+C:/Users/nebur/OneDrive/Desktop/repositories/c++ exercises/cpp-exercises/cpp-exercises/Wumpus game/CMakeFiles/WumpusGame.dir
+C:/Users/nebur/OneDrive/Desktop/repositories/c++ exercises/cpp-exercises/cpp-exercises/Wumpus game/CMakeFiles/ALL_BUILD.dir
+C:/Users/nebur/OneDrive/Desktop/repositories/c++ exercises/cpp-exercises/cpp-exercises/Wumpus game/CMakeFiles/ZERO_CHECK.dir
