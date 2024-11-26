@@ -34,3 +34,5 @@
 #folders
 
 /skip list/.vs/
+/Wumpus game/.idea/
+/Wumpus game/cmake-build-debug/
