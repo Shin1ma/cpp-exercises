@@ -8,6 +8,7 @@
 #include <iostream>
 #include <vector>
 #include <random>
+#include <windows.h>
 
 #include "utils.h"
 

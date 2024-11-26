@@ -139,15 +139,19 @@ bool Cave::is_out_of_bounds(int room) const{
 }
 
 void Cave::print_room(int room) const {
+    HANDLE h_console = GetStdHandle(STD_OUTPUT_HANDLE);
+
     if (room < 1 || room > cave_size) {
         error("Room number out of bounds");
     }
 
     cave_node* current_node = cave_nodes[room - 1];
     std::stringstream msg;
-    msg << "Room " << (current_node->adj_rooms[0] ? std::to_string(current_node->adj_rooms[0]->room_num) : "(no room here)")
-        << " - " << "Room " << room << " - "
-        << "Room " << (current_node->adj_rooms[1] ? std::to_string(current_node->adj_rooms[1]->room_num) : "(no room here)") << '\n';
+    std::cout << "Room " << (current_node->adj_rooms[0] ? std::to_string(current_node->adj_rooms[0]->room_num) : "(no room here)") << " - ";
+    SetConsoleTextAttribute(h_console, FOREGROUND_RED | FOREGROUND_INTENSITY);
+    std::cout << "Room " << room;
+    SetConsoleTextAttribute(h_console, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
+    std::cout << " - " << "Room " << (current_node->adj_rooms[1] ? std::to_string(current_node->adj_rooms[1]->room_num) : "(no room here)") << '\n';
     std::cout << msg.str();
     std::cout << "            |\n";
     std::cout << "         Room " + (current_node->adj_rooms[2] ? std::to_string(current_node->adj_rooms[2]->room_num) : "(no room here)") << '\n';

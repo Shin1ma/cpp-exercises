@@ -115,6 +115,7 @@ void WumpusGame::elaborate_player_input(){
     PlayerInput input;
     std::cout << "//: ";    //prompt
     std::cin >> input;
+    std::cout << '\n';
     if(std::cin.fail()) error("Invalid input");
     switch (input.identifier) {
         case 'm':   //move identifier
