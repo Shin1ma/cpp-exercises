@@ -1,0 +1,5 @@
+# ninja log v6
+542	633	7555774344320918	TemplateEx.exe	2eb2978c5904e097
+16	2551	7555783374547111	build.ninja	d72f2afbf2c9ef96
+3	530	7555783613597758	CMakeFiles/TemplateList.dir/main.cpp.obj	215159a735eae62e
+533	626	7555783618899145	TemplateList.exe	bab1ff91e132a6aa

@@ -1,0 +1,3 @@
+C:/Users/nebur/CLionProjects/TemplateList/cmake-build-debug/CMakeFiles/TemplateList.dir
+C:/Users/nebur/CLionProjects/TemplateList/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nebur/CLionProjects/TemplateList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
